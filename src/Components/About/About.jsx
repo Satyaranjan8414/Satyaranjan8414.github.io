@@ -26,7 +26,7 @@ const About = () => {
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
           {/* Hello! My name is Satyaranjan and I like to build websites/application that */}
-          {/* serves the world and always want to enhance my knowledge & adpot new */}
+          serves the world and always want to enhance my knowledge & adpot new
           technologies that make impact on people. My interest in web
           development started when I joined Masai School to learn full stack
           Web-Development — taught me alot about HTML & CSS. <br />
