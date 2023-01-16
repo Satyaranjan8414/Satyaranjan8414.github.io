@@ -30,7 +30,7 @@ const About = () => {
           {/* technologies that make impact on people. My interest in web */}
           {/* development started when I joined Masai School to learn full stack */}
           {/* Web-Development — taught me alot about HTML & CSS. <br /> */}
-          <br /> Fast Forwarding to today, I built a number of web applications
+          {/* <br /> Fast Forwarding to today, I built a number of web applications */}
           and major projects. Learned a great deal about teamwork, leadership,
           and communication. After months of rigorous training, here I am
           <span style={{ color: `#00a0a0` }}>
