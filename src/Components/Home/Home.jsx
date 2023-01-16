@@ -11,6 +11,7 @@ import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
+import GitCalendar from "../About/GithClender/GithClender";
 // import Experiences from '../Experiences/Experiences';
 
 
@@ -119,6 +120,7 @@ const Home = ({ scrollRef }) => {
 
       <div id="techStacks" className={styles.techStacks}>
         <TechStacks />
+        <GitCalendar/>
       </div>
 
       {/* project section from here => */}
