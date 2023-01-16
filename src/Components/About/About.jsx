@@ -28,7 +28,7 @@ const About = () => {
           {/* Hello! My name is Satyaranjan and I like to build websites/application that */}
           {/* serves the world and always want to enhance my knowledge & adpot new */}
           {/* technologies that make impact on people. My interest in web */}
-          {/* development started when I joined Masai School to learn full stack */}
+          development started when I joined Masai School to learn full stack
           Web-Development — taught me alot about HTML & CSS. <br />
           <br /> Fast Forwarding to today, I built a number of web applications
           and major projects. Learned a great deal about teamwork, leadership,
