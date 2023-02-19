@@ -34,15 +34,15 @@ const Navbar = () => {
 	const { newTheme, mode, handleMode, open, handleMenu } =
 		useContext(ThemeContext);
 
-	window.onscroll = () => {
-		let currentScrollPos = window.pageYOffset;
-		if (preScrollPos > currentScrollPos) {
-			navRef.current.style.top = '0';
-		} else {
-			navRef.current.style.top = '-80px';
-		}
-		setPreScrollPos(currentScrollPos);
-	};
+	// window.onscroll = () => {
+	// 	let currentScrollPos = window.pageYOffset;
+	// 	if (preScrollPos > currentScrollPos) {
+	// 		navRef.current.style.top = '0';
+	// 	} else {
+	// 		navRef.current.style.top = '-80px';
+	// 	}
+	// 	setPreScrollPos(currentScrollPos);
+	// };
 
 	return (
 		<nav
@@ -75,7 +75,7 @@ const Navbar = () => {
 					<a href='#projects'>Projects</a>
 
 					<a href='#contact'>Contact</a>
-					<a target="_blank" href="https://drive.google.com/file/d/1w6VquiToaAom-ulJ74C86CWcMSdnNoBg/view?usp=sharing">Resume</a>
+					<a href="/Satyaranjan_Maity_Resume.pdf" download onClick={()=>window.open("https://drive.google.com/file/d/1w6VquiToaAom-ulJ74C86CWcMSdnNoBg/view?usp=sharing","_blank" ) } >Resume</a>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
