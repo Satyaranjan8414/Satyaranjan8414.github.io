@@ -1,71 +1,143 @@
-.logoStart {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.logoStart img {
-	width: 100px;
-	animation: revolve 0.8s infinite;
-}
-.ts_logo{
-	border-radius: 100%;
-	padding: -50%;
+/* @import url(https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap);* {
+  box-sizing: border-box;
+  font-family: Lora,serif;
+  margin: 0;
+  padding: 0
 }
 
+body {
+  background-color: #000;
+  height: 100vh;
+  overflow-x: hidden
+}
 
-@keyframes revolve {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-		/* width: 200px;
-		opacity: 0; */
-	}
+.App,body {
+  width: 100%
 }
-.components {
-	text-align: center;
-	animation: wakeup 1s;
-}
-/* @keyframes wakeup {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+
+.App {
+  text-align: center
 } */
-button {
-	cursor: pointer;
-	outline: none;
+
+.proj {
+  margin-left: 2%;
+  margin-top: 10px;
+  width: 100%
 }
-.links {
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	font-size: 25px;
-	z-index: 5;
-	font-weight: 700;
-	height: 100vh;
-	width: 100vw;
-	top: 0;
-	transition: 0.5s;
+
+.proj:hover {
+  background-image: linear-gradient(359.4deg,#0c1445 -6.9%,#1086d4 109.9%);
+  border: "3px solid #1877f2";
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
+  transition-duration: 1.5s;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform,-webkit-transform
 }
-.links a {
-	margin: 20px;
+
+/* .about {
+  font-size: "30px";
+  margin-top: 20%
+} */
+
+/* input:placeholder-shown {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer
+} */
+
+/* input:placeholder-shown:hover {
+  border: 2px solid #1877f2
+} */
+
+/* textarea:placeholder-shown {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer
+} */
+
+/* textarea:placeholder-shown:hover {
+  border: 2px solid #1877f2
+} */
+
+.bounce {
+  -webkit-animation: bounce 2s ease infinite;
+  animation: bounce 2s ease infinite
 }
-a:hover {
-	color: #00a0a0;
+
+@-webkit-keyframes bounce {
+  70% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  80% {
+      -webkit-transform: translateY(-15%);
+      transform: translateY(-15%)
+  }
+
+  90% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  95% {
+      -webkit-transform: translateY(-7%);
+      transform: translateY(-7%)
+  }
+
+  97% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  99% {
+      -webkit-transform: translateY(-3%);
+      transform: translateY(-3%)
+  }
+
+  to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
 }
-::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
-	/* background: rgb(16, 22, 48); */
+
+@keyframes bounce {
+  70% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  80% {
+      -webkit-transform: translateY(-15%);
+      transform: translateY(-15%)
+  }
+
+  90% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  95% {
+      -webkit-transform: translateY(-7%);
+      transform: translateY(-7%)
+  }
+
+  97% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
+
+  99% {
+      -webkit-transform: translateY(-3%);
+      transform: translateY(-3%)
+  }
+
+  to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+  }
 }
-::-webkit-scrollbar-thumb {
-	cursor: pointer;
-	background: #fbbd41;
-}
+
+/* # sourceMappingURL=main.dc1498c4.css.map */
