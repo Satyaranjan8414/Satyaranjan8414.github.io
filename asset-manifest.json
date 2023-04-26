@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1f902994.css",
-    "main.js": "/static/js/main.bd822eec.js",
+    "main.js": "/static/js/main.87622b1d.js",
     "static/js/787.2acea074.chunk.js": "/static/js/787.2acea074.chunk.js",
-    "static/media/fw19_0538_Satyaranjan_Maity_Resume.pdf": "/static/media/fw19_0538_Satyaranjan_Maity_Resume.2b6edcc9fd96319ff113.pdf",
+    "static/media/Satyaranjan-Maity-Resume.pdf": "/static/media/Satyaranjan-Maity-Resume.2b6edcc9fd96319ff113.pdf",
     "static/media/MainPicture.png": "/static/media/MainPicture.6d7628772e606fa0e1b7.png",
     "index.html": "/index.html",
     "main.1f902994.css.map": "/static/css/main.1f902994.css.map",
-    "main.bd822eec.js.map": "/static/js/main.bd822eec.js.map",
+    "main.87622b1d.js.map": "/static/js/main.87622b1d.js.map",
     "787.2acea074.chunk.js.map": "/static/js/787.2acea074.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f902994.css",
-    "static/js/main.bd822eec.js"
+    "static/js/main.87622b1d.js"
   ]
 }
