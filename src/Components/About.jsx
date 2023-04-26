@@ -11,7 +11,7 @@ import {
 import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
-import SatyaRanjan from "../Resume/fw19_0538_Satyaranjan_Maity_Resume.pdf";
+import SatyaRanjan from "../Resume/Satyaranjan-Maity-Resume.pdf";
 
 function About() {
   return (

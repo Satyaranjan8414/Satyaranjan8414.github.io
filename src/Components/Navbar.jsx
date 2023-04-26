@@ -25,7 +25,7 @@ import {
 } from "@chakra-ui/icons";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { useEffect } from "react";
-import SatyaRanjan from "../Resume/fw19_0538_Satyaranjan_Maity_Resume.pdf";
+import SatyaRanjan from "../Resume/Satyaranjan-Maity-Resume.pdf";
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
